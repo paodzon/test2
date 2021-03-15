@@ -1,0 +1,33 @@
+.about{
+    background-image: url('../images/contact.png');
+    background-repeat: no-repeat;
+    height: 440px !important;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .about__title{
+        text-align: center;
+        h1{
+            font-size: 45px ;
+        }
+        p{
+            width: 1200px ;
+            font-size: 25px;
+        }
+    }
+    .about__btn{
+        margin-top: 50px !important;
+        background-color: transparent;
+        border-color: #fff;
+        border-radius: 0 !important;
+        font-size: 20px !important;
+        width: 180px !important;
+    }
+    .about__btn:hover{
+        background-color: transparent;
+        border-color: #fff;
+    }
+}
