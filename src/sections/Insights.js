@@ -4,6 +4,7 @@ import "./Insights.scss";
 import card1 from '../images/card1.png'
 import card2 from '../images/card2.png'
 import card3 from '../images/card3.png'
+import CarouselInsights from "../components/CarouselInsights";
 
 function Insights() {
   return (
@@ -44,6 +45,9 @@ function Insights() {
             </div>
             
         </div>
+        </div>
+        <div className="insights__carousel">
+          <CarouselInsights/>
         </div>
 
         

@@ -5,10 +5,10 @@ function Home() {
     <section className="home">
       <div className="home__text">
         <div className="home__title">
-          <h1>ACME Wealth</h1>
-          <h1>Management Platforms</h1>
+          <h1 className="home__title1">ACME Wealth</h1>
+          <h1 className="home__title2">Management Platforms</h1>
         </div>
-
+        <span className="home__divider">• • • • • • • • • • • • • • • • • • • • •</span><br/>
         <span>Investment excellence.</span>
         <br />
         <span>Diversity of thought</span>

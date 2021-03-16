@@ -1,0 +1,42 @@
+.headermenu__logo{
+    margin-left: 50px !important;
+}
+.headermenu__image{
+    width: 450px !important;
+    object-fit: contain;
+}
+.navbar-toggler-icon{
+    font-size: 40px !important;
+}
+.headermenu__btn{
+    background-color: #EBEBEB !important;
+    color: #989898 !important;
+    border-color: #EBEBEB !important;
+    font-size: 40px !important;
+    width: 900px !important;
+    height: 70px;
+    margin: 15px;
+    text-align: center;
+}
+.headermenu__navs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+    .headermenu__title{
+        border-bottom: 1px solid gray;
+        width: 900px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        font-size: 40px;
+        color: #334A7E;
+    }
+
+}
+.headermenu__btn:active{
+    border-color: gray;
+}

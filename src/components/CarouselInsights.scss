@@ -1,0 +1,16 @@
+
+.carousel__dots{
+    background: none !important;
+
+
+    button{
+        background: none;
+        color: #fff
+    }
+
+}    
+.carousel__insights{
+    .BrainhubCarousel__dots .BrainhubCarousel__dot:before{
+        background: #fff !important;
+    }
+}

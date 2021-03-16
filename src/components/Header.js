@@ -15,11 +15,11 @@ function Header() {
         </div>
       </div>
       <div className="header__tabs">
-        <div>Home</div>
-        <div>About Us</div>
-        <div>Insights</div>
-        <div>Events</div>
-        <div>Contact Us</div>
+        <span>Home</span>
+        <span>About Us</span>
+        <span>Insights</span>
+        <span>Events</span>
+        <span>Contact Us</span>
       </div>
     </header>
   );

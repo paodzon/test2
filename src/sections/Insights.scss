@@ -3,24 +3,24 @@
     padding-bottom: 50px !important;
     .insights__title{
         
-        margin-left: 20px !important;
+        margin-left: 20px;
         h5{
             font-weight: 100;
-            font-size: 35px !important;
-            margin-bottom: -5px !important;
+            font-size: 35px;
+            margin-bottom: -5px;
         }
         span{
             font-weight: 100;
-            font-size: 18px !important;
+            font-size: 18px ;
         }
     }
     .insights__content{
-        padding-top: 50px !important;
-        margin-left: 300px !important;
-        margin-right: 300px !important;
+        padding-top: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
     }
     h1{
-        margin-bottom: 0 !important;
+        margin-bottom: 0;
     }
     .card1 {
         border-bottom: 13px solid #154ED1;
@@ -32,7 +32,7 @@
         border-bottom: 13px solid #019BFB;
       }
     .insights__cards{
-        display: flex;
+    
         padding: 20px !important;
         background: #fff;
         border-radius: 2px;
@@ -69,5 +69,62 @@
         display: flex;
         justify-content: center;
     }
+    .insights__carousel{
+        display: none;
+    }
 
 }
+@media only screen and (max-width: 1366px)  {
+    .insights__content{
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+    .insights__cards{
+        img{
+            width: 250px !important;
+        }
+        h1{
+            font-size: 30px !important;
+        }
+
+    
+        padding: 20px !important;
+        background: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        width: 350px !important;
+        height: 370px !important;
+        margin: 1rem;
+        position: relative;
+ 
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 5px rgba(0,0,0,0.23);
+        
+    }
+}
+@media only screen and (max-width: 600px)  {
+    .insights__carousel{
+        display: block !important;
+        margin-left: -30px !important;
+    }
+    .insights__cardcon{
+        display: none !important;
+    }
+    .insights{
+        height: 100%;
+        color: #fff !important;
+        background-color: #001A7B !important;
+    }
+    .insights__content{
+        margin-left: 150px !important;
+        margin-right: 150px !important;
+    }
+    .insights__title{
+        margin-left: 0px !important;
+        h5{
+            font-size: 50px !important;
+        }
+        span{
+            font-size: 30px !important;
+        }
+    }
+  }

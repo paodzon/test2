@@ -11,3 +11,12 @@ user-select: none;
 -webkit-user-select: none;
 -ms-user-select: none;
 }
+.app__mobileheader{
+    display: none;
+}
+@media only screen and (max-width: 600px)  {
+    .app{
+        width: 1200px;
+        
+    }
+  }

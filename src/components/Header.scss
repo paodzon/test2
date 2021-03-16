@@ -15,7 +15,7 @@
         display: flex;
         align-items: flex-end;
 
-        margin-left:300px !important
+        margin-left:300px
 
     }
     .header__title{
@@ -49,3 +49,48 @@
 
     }
 }
+.headermenu{
+    display: none;
+}
+
+@media only screen and (max-width: 1366px) {
+    .header{
+        img{
+
+            width: 120px !important;
+            background-color: #fff;
+        }
+
+        .header__title2{
+            margin-bottom: -10px !important;
+            font-size:50px !important;
+            font-weight: 650;
+            color: #193989;
+        }
+
+        .header__tabs{
+            font-size: 18px;
+            margin-left: 50px !important;
+            margin-right: 150px !important;
+            margin-bottom: 10px !important;
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            
+        }
+    }
+    .header__logotitle{
+
+
+        margin-left:150px !important
+
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .header{
+        display: none !important;
+    }
+    .headermenu{
+        display: block;
+    }
+  }

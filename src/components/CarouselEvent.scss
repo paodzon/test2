@@ -1,0 +1,71 @@
+.carousel{
+    width: 1000px !important;
+    margin-left: -60px !important;
+}
+.carousel__dots{
+    display: flex;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    color: gray !important;
+}
+.carousel__image{
+    width: 500px !important;
+}
+.carousel__slide{
+    background-image: url(../images/event.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    min-width: 400px;
+}
+.carousel__date{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    color: #01A59E;
+    text-align: center;
+    margin-left: 40px !important;
+
+    span{
+        margin-top: 10px;
+    }
+}
+.carousel__details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    padding: 20px;
+    h5{
+        font-size:25px !important;
+    }
+    span{
+        font-size: 18px;
+        width: 350px !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    .carousel__btn{
+        background: none !important;
+        border:1px solid #fff;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+}
+.carousel__location{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-top: 30px !important;
+    margin-right: 10px !important;
+    h4{
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+    span{
+        font-weight: 100;
+    }
+}

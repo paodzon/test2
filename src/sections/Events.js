@@ -1,5 +1,6 @@
 import React from "react";
-import {Button} from 'reactstrap';
+import Button from 'react-bootstrap/Button';
+import CarouselEvent from "../components/CarouselEvent";
 import "./Events.scss";
 
 function Events() {
@@ -17,29 +18,32 @@ function Events() {
               <h1>28</h1>
             </div>
             <div className="events__details">
-            <h5>Insight Exchange Network</h5>
-            <span>Join us for this conference showcasing innovation</span><br/>
-            <Button className="events__btn">Get More Insight</Button>
+              <h5>Insight Exchange Network</h5>
+              <span>Join us for this conference showcasing innovation</span>
+              <br />
+              <Button className="events__btn">Get More Insight</Button>
             </div>
             <div className="events__location">
-                <h4>Chicago, IL</h4>
+              <h4>Chicago, IL</h4>
             </div>
-
           </div>
           <div className="events__card1">
             <div className="events__date">
               <span>FEB</span>
               <h1>12</h1>
-
             </div>
 
             <div className="events__details">
-            <h5>Citywide Buyer's Retreat</h5>
-            <span>Find out hhow banks are responding to the changing future of interests...</span><br/>
-            <Button className="events__btn">Get More Insight</Button>
+              <h5>Citywide Buyer's Retreat</h5>
+              <span>
+                Find out hhow banks are responding to the changing future of
+                interests...
+              </span>
+              <br />
+              <Button className="events__btn">Get More Insight</Button>
             </div>
             <div className="events__location">
-                <h4>The Wagner, New York</h4>
+              <h4>The Wagner, New York</h4>
             </div>
           </div>
           <div className="events__card1">
@@ -49,14 +53,20 @@ function Events() {
             </div>
 
             <div className="events__details">
-            <h5>Research Exchange</h5>
-            <span>Find the best online resources to help with your investments...</span><br/>
-            <Button className="events__btn">Get More Insight</Button>
+              <h5>Research Exchange</h5>
+              <span>
+                Find the best online resources to help with your investments...
+              </span>
+              <br />
+              <Button className="events__btn">Get More Insight</Button>
             </div>
             <div className="events__location">
-                <h4>London, England</h4>
+              <h4>London, England</h4>
             </div>
           </div>
+        </div>
+        <div className="events__carousel">
+          <CarouselEvent/>
         </div>
       </div>
     </section>
