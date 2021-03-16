@@ -2,7 +2,6 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-import event from "../images/event.png";
 import "./CarouselEvent.scss";
 
 class CarouselEvent extends React.Component {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Button } from "react-bootstrap";
+import {Button } from "react-bootstrap";
 import "./FooterMobile.scss";
 
 function FooterMobile() {

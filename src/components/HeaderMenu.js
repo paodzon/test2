@@ -16,7 +16,7 @@ const HeaderMenu = () => {
           <span></span>
         </div>
       <div className="headermenu__logo">
-        <img src={logo} className="headermenu__image"/>
+        <img src={logo} className="headermenu__image" alt="logo"/>
       </div>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

@@ -6,7 +6,7 @@ function LogoSection() {
     return (
         <section className="logosection">
             <div className="logosection__con">
-            <img src={logo} className="logosection__image"/>
+            <img src={logo} className="logosection__image" alt="logo"/>
             </div>
             
         </section>
