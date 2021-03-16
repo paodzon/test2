@@ -36,7 +36,7 @@ function Events() {
             <div className="events__details">
               <h5>Citywide Buyer's Retreat</h5>
               <span>
-                Find out hhow banks are responding to the changing future of
+                Find out how banks are responding to the changing future of
                 interests...
               </span>
               <br />
